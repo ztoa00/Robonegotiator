@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historical Data</title>
+</head>
+<body>
+	
+	<form method="POST" action="/api/ai/offerSummaryReport">
+		<label>Seller_email:</label>
+		<input type="text" name="seller_email" >
+
+		<label>start:</label>
+		<input type="date" name="start_date" >
+
+		<label>end:</label>
+		<input type="date" name="end_date" >
+
+		<label>upc_product_code:</label>
+		<input type="text" name="upc_product_code" >
+		
+		<input type="submit" name="api_password" value="Get PDF">
+	</form>
+</body>
+</html>

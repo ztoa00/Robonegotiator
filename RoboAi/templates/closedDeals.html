@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historical Data</title>
+</head>
+<body>
+	
+	<form method="POST" action="/api/ai/closedDealSummary">
+		<label>Seller_email:</label>
+		<input type="text" name="seller_email" >
+
+		<label>start:</label>
+		<input type="date" name="start_date" >
+
+		<label>end:</label>
+		<input type="date" name="end_date" >
+		
+		<input type="submit" name="api_password" value="Get PDF">
+	</form>
+</body>
+</html>
